@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name" translatable="false">Lab1</string>
+    <string name="edit_message" translatable="false">Enter you text here</string>
+    <string name="but1" translatable="false">Go!</string>
+    <string name="todo1" translatable="false">TODO</string>
+    <string name="tod11" translatable="false">TOD1</string>
+    <string name="author" translatable="false">Стельмашук Иван, ФЭИС, АС-63</string>
+    <string name="download">Download</string>
+    <string name="to_website">To website</string>
+    <string name="info">Info</string>
+</resources>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#000000"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="393dp"
+        android:layout_height="773dp"
+        android:orientation="horizontal"
+
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints,UselessLeaf">
+
+        <FrameLayout
+            android:id="@+id/frame"
+            android:layout_width="393dp"
+            android:layout_height="623dp"
+            android:layout_marginTop="150dp"
+            tools:ignore="MissingConstraints,UselessLeaf,UselessParent">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="TODO3"
+                app:srcCompat="@drawable/bill"
+                tools:ignore="HardcodedText" />
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="150dp"
+                android:layout_height="128dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="300dp"
+                android:contentDescription="TOD1"
+                app:srcCompat="@drawable/like"
+                tools:ignore="ContentDescription,HardcodedText" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="150dp"
+                android:layout_height="128dp"
+                android:layout_marginStart="225dp"
+                android:layout_marginTop="300dp"
+                android:contentDescription="TOD1"
+                app:srcCompat="@drawable/dislike"
+                tools:ignore="ContentDescription,HardcodedText" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="241dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="90dp"
+                android:layout_marginTop="600dp"
+                android:text="@string/author"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="440dp"
+                android:text="@string/download" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="260dp"
+                android:layout_marginTop="440dp"
+                android:text="@string/to_website" />
+
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="105dp"
+            android:layout_height="59dp"
+            android:text="@string/but1"
+            android:textColor="#ffffff"
+            android:layout_marginStart="-110dp"
+            android:layout_marginTop="20dp"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/edit_message"
+            android:layout_width="262dp"
+            android:layout_height="68dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:layout_marginStart="-375dp"
+            android:layout_marginTop="20dp"
+            android:hint="@string/edit_message"
+            android:inputType="text"
+            android:text="@string/edit_message"
+            android:textColor="#ffffff"
+
+            tools:ignore="HardcodedText,LabelFor,MissingConstraints" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

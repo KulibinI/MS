@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/journalNumberInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Введите номер журнала"
+        android:inputType="number"
+        android:layout_marginBottom="16dp"
+        android:maxLength="4" />
+
+    <Button
+        android:id="@+id/downloadButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Скачать журнал" />
+
+    <Button
+        android:id="@+id/viewButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Смотреть"
+        android:visibility="gone" /> <!-- Кнопка по умолчанию скрыта -->
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Удалить"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Стельмашук И.А., АС-63" /> <!-- Кнопка по умолчанию скрыта -->
+</LinearLayout>
